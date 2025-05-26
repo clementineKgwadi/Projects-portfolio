@@ -1,8 +1,5 @@
 body {
   font-family: "Nunito", sans-serif;
-  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/678/original/desk-with-objects.jpg?1748264141');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 h1 {
@@ -16,10 +13,47 @@ h1 span {
 h2 {
   font-size: 28px;
 }
-.container {
-  padding: 160px 0;
+.box {
+  padding: 190px 50px;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/678/original/desk-with-objects.jpg?1748264141");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.container p {
+.box p {
   font-size: 38px;
   margin: 0;
 }
+
+.container-fluid {
+  background-color: #88b04b;
+  color: #ffffff;
+}
+
+.about-me {
+  padding: 35px 50px 10px;
+}
+
+.about-me h2 {
+  font-size: 38px;
+  line-height: 2;
+  opacity: 0.6;
+}
+
+.about-me p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+.projects{
+    background-color: #f1f1f3;
+    padding: 35px 50px 10px;
+}
+
+.projects h2{
+    margin-bottom: 40px;
+}
+
+
+  
+
