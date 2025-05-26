@@ -1,0 +1,25 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/678/original/desk-with-objects.jpg?1748264141');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h1 span {
+  color: #88b04b;
+}
+
+h2 {
+  font-size: 28px;
+}
+.container {
+  padding: 160px 0;
+}
+.container p {
+  font-size: 38px;
+  margin: 0;
+}
