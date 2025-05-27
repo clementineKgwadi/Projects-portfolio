@@ -39,21 +39,29 @@ h2 {
   opacity: 0.6;
 }
 
+.about-me h4 {
+  line-height: 1.5;
+  opacity: 0.6;
+}
 .about-me p {
   line-height: 1.5;
   text-align: justify;
 }
 
-
-.projects{
-    background-color: #f1f1f3;
-    padding: 35px 50px 10px;
+.projects {
+  background-color: #f1f1f3;
+  padding: 35px 50px 10px;
 }
 
-.projects h2{
-    margin-bottom: 40px;
+.projects h2 {
+  margin-bottom: 40px;
 }
 
+.about-me-section {
+  padding-left: 60px;
+}
 
-  
-
+.about-me ul{
+  list-style: none;
+  padding: 0;
+}
