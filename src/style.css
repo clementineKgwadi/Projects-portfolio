@@ -14,7 +14,7 @@ h2 {
   font-size: 28px;
 }
 .box {
-  padding: 190px 50px;
+  padding: 200px 50px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/678/original/desk-with-objects.jpg?1748264141");
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,15 +48,6 @@ h2 {
   text-align: justify;
 }
 
-.projects {
-  background-color: #f1f1f3;
-  padding: 35px 50px 10px;
-}
-
-.projects h2 {
-  margin-bottom: 40px;
-}
-
 .about-me-section {
   padding-left: 60px;
 }
@@ -64,4 +55,76 @@ h2 {
 .about-me ul{
   list-style: none;
   padding: 0;
+  line-height: 30px;
 }
+
+.projects {
+  background-color: #f1f1f3;
+  padding: 35px 50px 10px;
+}
+
+.projects h2 {
+  margin-bottom: 40px;
+  color: #8dca31;
+}
+
+.project-img{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  transition: all 150ms ease-in-out;
+}
+
+
+.projects h3{
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.projects p{
+  line-height: 30px;
+  text-align: justify;
+  opacity: 0.7;
+  font-size: 17px;
+}
+
+.btn-visit{
+  background: #8dca31;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px 0;
+  transition: all 150ms ease-in-out;
+  text-align: center;
+  width: 130px;
+  margin-top: 25px;
+}
+
+.btn-visit a{
+  text-decoration: none;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.btn-visit:hover, .project-img:hover{
+transform: scale(1.05);
+}
+
+.socials{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.socials a {
+  text-align: center;
+  color: #88b04b;
+  margin: 0 15px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.socials a:hover{
+opacity: 0.6;
+}
+
+
+
