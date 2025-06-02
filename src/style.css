@@ -24,7 +24,7 @@ h2 {
   margin: 0;
 }
 
-.container-fluid {
+.container-fluid-box {
   background-color: #88b04b;
   color: #ffffff;
 }
@@ -125,6 +125,4 @@ transform: scale(1.05);
 .socials a:hover{
 opacity: 0.6;
 }
-
-
 
