@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -13,12 +14,15 @@ h1 span {
 h2 {
   font-size: 28px;
 }
+
+/* Hero Section */
 .box {
   padding: 200px 50px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/678/original/desk-with-objects.jpg?1748264141");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .box p {
   font-size: 38px;
   margin: 0;
@@ -29,6 +33,7 @@ h2 {
   color: #ffffff;
 }
 
+/* About Section */
 .about-me {
   padding: 35px 50px 10px;
 }
@@ -43,7 +48,9 @@ h2 {
   line-height: 1.5;
   opacity: 0.6;
 }
+
 .about-me p {
+  font-size: 17px;
   line-height: 1.5;
   text-align: justify;
 }
@@ -52,12 +59,13 @@ h2 {
   padding-left: 60px;
 }
 
-.about-me ul{
+.about-me ul {
   list-style: none;
   padding: 0;
   line-height: 30px;
 }
 
+/* Projects Section */
 .projects {
   background-color: #f1f1f3;
   padding: 35px 50px 10px;
@@ -69,61 +77,91 @@ h2 {
   color: #8dca31;
 }
 
-.project-img{
-  border-radius: 10px;
-  width: 100%;
-  height: auto;
-  transition: all 150ms ease-in-out;
-}
-
-
-.projects h3{
-  opacity: 0.7;
+.projects h3 {
   margin-bottom: 30px;
+  font-weight: 700;
+  opacity: 0.7;
 }
 
-.projects p{
+.projects p {
+  font-size: 18px;
   line-height: 30px;
   text-align: justify;
   opacity: 0.7;
-  font-size: 17px;
 }
 
-.btn-visit{
-  background: #8dca31;
-  border-radius: 4px;
-  font-size: 16px;
-  padding: 8px 0;
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
   transition: all 150ms ease-in-out;
-  text-align: center;
+}
+
+/* Visit Button */
+.btn-visit {
   width: 130px;
   margin-top: 25px;
+  padding: 8px 0;
+  font-size: 16px;
+  text-align: center;
+  background: #8dca31;
+  border-radius: 4px;
+  transition: all 150ms ease-in-out;
 }
 
-.btn-visit a{
-  text-decoration: none;
-  line-height: 1.5;
+.btn-visit a {
   color: #ffffff;
+  line-height: 1.5;
+  text-decoration: none;
 }
 
-.btn-visit:hover, .project-img:hover{
-transform: scale(1.05);
+.btn-visit:hover,
+.project-img:hover {
+  transform: scale(1.05);
 }
 
-.socials{
+/* Footer Socials */
+.socials {
   text-align: center;
   margin: 20px 0;
 }
 
 .socials a {
-  text-align: center;
-  color: #88b04b;
-  margin: 0 15px;
   font-size: 25px;
+  margin: 0 15px;
+  color: #88b04b;
   text-decoration: none;
 }
 
-.socials a:hover{
-opacity: 0.6;
+.socials a:hover {
+  opacity: 0.6;
 }
 
+/* Responsive Styles */
+@media (max-width: 576px) {
+  .box {
+    padding: 200px 30px;
+  }
+
+  .box p {
+    font-size: 34px;
+  }
+
+  .box h1 {
+    font-size: 38px;
+  }
+
+  .box h2 {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .about-me-section {
+    padding-left: 30px;
+  }
+
+  .projects h2,
+  .projects h3 {
+    font-size: 28px;
+  }
+}
