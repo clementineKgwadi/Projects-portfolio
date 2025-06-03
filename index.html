@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Front-end portfolio of a beginner web developer. Explore HTML, CSS, JavaScript projects, responsive design samples, and UI creativity."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,9 +35,18 @@
     <title>My Portfolio - Clementine Kgwadi</title>
   </head>
   <body>
+    <header>
     <nav class="navbar navbar-expand-lg bg-light px-4 fs-5 fw-bold fixed-top">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -45,15 +58,16 @@
               <a class="nav-link" href="/#about-me">About Me</a>
             </li>
             <li class="nav-item me-4 opacity-75">
-              <a class="nav-link" href="/#projects">Projects</a>
+              <a class="nav-link" href="/#projects">My Projects</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    </header>
 
+<main>
     <div class="box">
-
       <p>Hi,</p>
       <h1>I'm <span> Clementine</span></h1>
       <h2>Welcome to my corner of the internet - glad you're here</h2>
@@ -105,7 +119,7 @@
       </div>
     </div>
 
-    <div class="projects" id = "projects">
+    <div class="projects" id="projects">
       <h2>Take a look at what I've been working on!</h2>
       <div class="container">
         <!-- Weather app -->
@@ -132,7 +146,7 @@
             <div class="btn-visit">
               <a
                 href="https://weather-forecast-update-s.netlify.app/"
-                target="_blank"
+                target="_blank" title="Visit the live project site"
                 >Visit site</a
               >
             </div>
@@ -154,7 +168,7 @@
             </p>
 
             <div class="btn-visit">
-              <a href="https://ai-exercise-tips.netlify.app/" target="_blank"
+              <a href="https://ai-exercise-tips.netlify.app/" target="_blank" title="Visit the live project site"
                 >Visit site</a
               >
             </div>
@@ -194,7 +208,7 @@
             </p>
 
             <div class="btn-visit">
-              <a href="https://global-time-project.netlify.app/" target="_blank"
+              <a href="https://global-time-project.netlify.app/" target="_blank" title="Visit the live project site"
                 >Visit site</a
               >
             </div>
@@ -202,21 +216,25 @@
         </div>
       </div>
     </div>
+    </main>
+
     <footer>
-    <div class="socials">
-      <a href="https://www.linkedin.com/in/clementine-kgwadi-a8b086230/" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
+      <div class="socials">
+        <a
+          href="https://www.linkedin.com/in/clementine-kgwadi-a8b086230/"
+          target="_blank" title="Connect with me on LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
 
-      <a href="https://github.com/clementineKgwadi" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
+        <a href="https://github.com/clementineKgwadi" target="_blank" title="Visit my GitHub">
+          <i class="fab fa-github"></i>
+        </a>
 
-      <a href="mailto:clementinekgwadi43@gmail.com">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </div>
-          </footer>
-   
+        <a href="mailto:clementinekgwadi43@gmail.com" title="Contact me through email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
